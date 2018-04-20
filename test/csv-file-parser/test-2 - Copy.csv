@@ -1,0 +1,13 @@
+id;type;name;description;width;height;depth;weight;cargoVolume;maximunLoad;recommendedLoad;category;insertHolesNumber;insertHoleWidth;insertHoleHeight;loadType;madeof;madeOfCode;brandName;ModelName;manufacturerName;colors;image;compliantWith;accessLimitation;userldentification;inputControl;maximumInputVolume;features,,,,,,,
+DepositPointType:0;DepositPointType;RSUCargaLateral3200;;1,66;1,81;1263;146;3200;;;wheelieBin;1;1,66;848;side;HDPE;;CONTENUR;C3200D;CONTENUR;grey;;EN12574;;;;;wheels, feetAperture, lid,,
+DepositPointType:1;DepositPointType;PapelCartonLateral3200;;1,66;1,81;1263;146;3200;;;wheelieBin;1;1,66;848;side;HDPE;;CONTENUR;C3200D;CONTENUR;blue;;EN12574;;;;;wheels, feetAperture, lid,,
+DepositPointType:2;DepositPointType;RSUCargaLateral3200;;1,66;1,81;1263;146;3200;;;wheelieBin;1;1,66;848;side;HDPE;;ROS ROCA;;ROS ROCA;grey;;;;;;;wheels, feetAperture, lid,,
+DepositPointType:3;DepositPointType;PapelCartonLateral3200;;1,66;1,81;1263;146;3200;;;wheelieBin;1;1,66;848;side;HDPE;;ROS ROCA;;ROS ROCA;blue;;;;;;;wheels, feetAperture, lid,,
+DepositPointType:4;DepositPointType;RSUCargaTrasera1100;;1,19;1325;1,0895;;1100;;;wheelieBin;1;1207;1038;back;HDPE;;CONTENUR;C1100F;CONTENUR;green;;EN840;;;;;wheels, handAperture, lid,,,
+DepositPointType:5;DepositPointType;PapelCartonCargaTrasera1100;;1,19;1325;1,0895;;1100;;;wheelieBin;1;1207;1038;back;HDPE;;CONTENUR;C1100F;CONTENUR;Blue;;EN840;;;;;wheels, handAperture, lid,,,
+DepositPointType:6;DepositPointType;OrganicaCargaTrasera1100;;1,19;1325;1,0895;;1100;;;wheelieBin;2;1.207,30;1.038,20;back;HDPE;;CONTENUR;C1100F;CONTENUR;Brown;;EN840;lock;;;;wheels, handAperture,key, lid
+DepositPointType:7;DepositPointType;RSUCargaTrasera800;;;;;;800;;;wheelieBin;1;;;back;HDPE;;CONTENUR;;CONTENUR;green;;;;;;;wheels, handAperture, lid,,,,,
+DepositPointType:8;DepositPointType;RSUCargaTrasera360;;;;;;360;;;wheelieBin;1;;;back;HDPE;;CONTENUR;;CONTENUR;green;;;;;;;wheels, handAperture, lid,,,,,
+DepositPointType:9;DepositPointType;PapelCartonCargaTrasera800;;;;;;800;;;wheelieBin;1;;;back;HDPE;;CONTENUR;;CONTENUR;blue;;;;;;;wheels, handAperture, lid,,,,,
+DepositPointType:10;DepositPointType;PapelCartonCargaTrasera360;;;;;;360;;;wheelieBin;1;;;back;HDPE;;CONTENUR;;CONTENUR;blue;;;;;;;wheels, handAperture, lid,,,,,
+DepositPointType:11;DepositPointType;RSUCargalateral1700;;;;;;1700;;;wheelieBin;1;;;back;HDPE;;CONTENUR;;CONTENUR;green;;;;;;;wheels, handAperture, lid,,,,,

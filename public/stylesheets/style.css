@@ -1,0 +1,63 @@
+.panel-heading {
+  padding: 5px 15px;
+}
+
+.footer {
+padding: 1px 15px;
+color: #A0A0A0;
+margin-bottom: 0px;
+/* position: fixed; */
+margin-left: 0px;
+margin-top: 20px;
+}
+
+/* @media screen and(max-width: 700px){
+  .footer{
+    margin-left:0px;
+  }
+} */
+
+.profile-img {
+width: 96px;
+height: 96px;
+margin: 0 auto 10px;
+display: block;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+}
+
+.center-div{
+  margin: auto;
+  width: 70%;
+  /*padding-left: 10%;*/
+  margin-top: 30px;
+}
+
+.fields{
+  padding-left: 20%;
+}
+
+.logo{
+  width: 50%;
+}
+
+@media screen and (min-width: 700px){
+  .logo{
+    width: 400px;
+  }
+}
+
+.msg{
+  text-align: center;
+  font-size: 23px;
+  
+}
+
+.labela{
+  margin-top: 15px;
+}
+
+.kont{
+   height: 90vh;
+}

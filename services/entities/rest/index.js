@@ -1,0 +1,5 @@
+let get = require('./get');
+
+module.exports = {
+  get
+}

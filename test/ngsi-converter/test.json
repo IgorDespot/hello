@@ -1,0 +1,13 @@
+[
+    {
+        "id": "DepositPoint:0",
+        "type": "DepositPoint",
+        "POINT_X": "-2,864028341",
+        "POINT_Y": "-2,864028341"
+    },
+    {
+        "id": "DepositPoint:1",
+        "type": "DepositPoint",
+        "POINT_X": "-2,864028341"
+    }
+]

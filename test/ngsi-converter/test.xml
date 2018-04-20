@@ -1,0 +1,16 @@
+<entities>
+    <entity>
+        <id>DepositPoint:0</id>
+        <type>DepositPoint</type>
+        <POINT_X>-2,864028341</POINT_X>
+        <POINT_Y>-2,864028341</POINT_Y>
+    </entity>
+    <entity>
+        <id>DepositPoint:1</id>
+        <type>DepositPoint</type>
+    </entity>
+    <entity>
+        <id>DepositPoint:2</id>
+        <type>DepositPoint</type>
+    </entity>
+</entities>

@@ -1,0 +1,27 @@
+{
+  "name": "simple-login-system",
+  "version": "1.0.0",
+  "description": "Simple login system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marija Borisov",
+  "license": "Engineering",
+  "dependencies": {
+    "bcryptjs": "*",
+    "bluebird": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "uuid": "^3.2.1"
+  }
+}

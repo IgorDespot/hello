@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>[Waste4Think] NGSI connector</title>
+
+ {{!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">--}}
+ <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+  
+ <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="container container-fluid kont"  >
+    <div class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+          {{#if user}}
+              <li role="presentation"><a href="/">Dashboard</a></li>
+              <li role="presentation"><a href="/users/logout">Logout</a></li>
+            {{else}}
+              <li role="presentation"><a href="/users/login">Login</a></li>
+              <li role="presentation"><a href="/users/register">Register</a></li>
+          {{/if}}
+        </ul>
+      </nav>
+      <h3 class="text-muted">[Waste4Think] NGSI connector</h3>
+      {{!-- <h3 class="text-muted">LoginApp</h3> --}}
+      <div class="logo">
+        <img src="/images/waste4think-logo.png" class="img-responsive " alt="Waste 4 Think" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        {{#if success_msg}}
+            <div class="alert alert-success">{{success_msg}}</div>
+          {{/if}}
+
+          {{#if error_msg}}
+            <div class="alert alert-danger">{{error_msg}}</div>
+          {{/if}}
+
+          {{#if error}}
+            <div class="alert alert-danger">{{error}}</div>
+          {{/if}}
+        {{{body}}}
+      </div>
+    </div>
+    <footer class="footer col-sm-12">
+        <p><img src="/images/logo_engineering_footer.png"/></p>
+    </footer>
+  </div>  
+  {{!-- <footer class="footer col-sm-12">
+        <p><img src="/images/logo_engineering_footer.png"/></p>
+  </footer> --}}
+</body>
+</html>
