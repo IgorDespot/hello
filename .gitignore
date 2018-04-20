@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# Package-lock
+package-lock.json
+
+# Upload module file container
+uploads
